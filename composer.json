@@ -1,0 +1,16 @@
+{
+    "name": "lazycoders/eticket",
+    "description": "It is an easy and convinient way to purchase or book a ticket",
+    "type": "project",
+    "require": {
+        "twbs/bootstrap": "^4.3",
+        "components/jquery": "^3.3"
+    },
+    "license": "Open Source",
+    "authors": [
+        {
+            "name": "lazyCoders",
+            "email": "lazycoders@localhost.com"
+        }
+    ]
+}

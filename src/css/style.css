@@ -1,0 +1,65 @@
+.text-color{
+    color: slateblue;
+}
+.main-bg{
+    background-image: url("../img/main.png");    
+    background-size: auto 55%;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    height: 89vh;
+
+}
+.main-bg-reg{
+    background-image: url("../img/reg.png");    
+    background-size: 50% auto;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 89vh;
+
+}
+.main-reg-success{
+    background-image: url("../img/reg_success.png");    
+    background-size: 60% auto;
+    background-repeat: no-repeat;
+    background-position: bottom middle;
+    height: 89vh;
+
+}
+.main-bg-login{
+    background-image: url("../img/login-bg.png");    
+    background-size: 60% auto;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 89vh;
+}
+
+.seat-booked{
+    color: white;
+    background-color: red;
+}
+.active-seat{
+    color: white;
+    background-color: green;
+}
+#tripRes{
+    display: none;
+}
+.footer{
+    height: 10px;
+}
+.small-text{
+    font-size: 12px;
+}
+
+
+
+/* media query*/
+@media only screen and (max-width: 768px){
+    .border-n{
+        border: none!important;
+        
+    }
+    .main-bg{
+        height: auto;
+    }
+}
